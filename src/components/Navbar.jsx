@@ -14,7 +14,7 @@ const Menu = () => {
           <Nav.Link href="/about">About</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="#deets">Login</Nav.Link>
+          <Nav.Link href="/login">Login</Nav.Link>
           <Nav.Link eventKey={2} href="#memes">
             Log out
           </Nav.Link>
