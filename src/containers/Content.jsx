@@ -8,6 +8,7 @@ import Login from '../components/Login'
 import SignUp from '../components/SignUp'
 import Profile from '../components/Profile'
 import ProfileEdit from '../components/ProfileEdit'
+import NewGame from '../components/NewGame'
 const Content = () => {
   return(
     <>
@@ -20,6 +21,7 @@ const Content = () => {
         <Route exact path='/signup' component={SignUp} />
         <Route exact path='/profile' component={Profile} />
         <Route exact path='/profile-edit' component={ProfileEdit} />
+        <Route exact path='/new-game' component={NewGame} />
       </Switch>
     </>
   )

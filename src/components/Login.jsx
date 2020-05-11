@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
-import { Nav,  } from 'react-bootstrap'
+import { Nav  } from 'react-bootstrap'
 const Login = () => {
   return(
     <Container fluid>
